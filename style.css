@@ -2,6 +2,7 @@ body{
     background-color: pink;
     color: teal;
     font-family: 'Times New Roman', Times, serif;
+    min-height: 100%;
 }
 
 .site-header, .side-bar{
@@ -28,6 +29,11 @@ body{
     text-decoration: overline;
 }
 
+.page-layout{
+    display: flex;
+    flex: 1;
+}
+
 .side-bar{
     font-size: 24px;
     padding: 20px;
@@ -40,6 +46,7 @@ body{
 
 side-bar nav a{
     display: block;
+    text-decoration: none;
     margin-bottom: 20px;
 }
 
