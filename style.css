@@ -2,7 +2,9 @@ body{
     background-color: pink;
     color: teal;
     font-family: 'Times New Roman', Times, serif;
-    min-height: 100%;
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .site-header, .side-bar{
@@ -44,12 +46,12 @@ body{
     margin-top: 0;
 }
 
-side-bar nav a{
+.side-bar nav a{
     display: block;
     text-decoration: none;
     margin-bottom: 20px;
 }
 
-side-bar nav a:hover{
+.side-bar nav a:hover{
     text-decoration: underline;
 }
