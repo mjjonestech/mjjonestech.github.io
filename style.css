@@ -1,3 +1,10 @@
+body{
+    background-color: hotpink;
+    color: teal;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: normal;
+}
+
 .site-header{
     background-color: hotpink;
     color:teal;
