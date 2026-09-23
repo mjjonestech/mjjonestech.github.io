@@ -13,7 +13,9 @@ body{
 
 .large-header-text, .small-header-text{
     display: block;
+    text-decoration: underline;
 }
+
 .large-header-text{
     font-size: 48px;
 }
