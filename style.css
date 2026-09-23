@@ -11,6 +11,9 @@ body{
     text-align: center;
 }
 
+.large-header-text, .small-header-text{
+    display: block;
+}
 .large-header-text{
     font-size: 48px;
 }
