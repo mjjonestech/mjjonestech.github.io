@@ -4,22 +4,45 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.site-header{
+.site-header, .side-bar{
     background-color: teal;
     color:pink;
-    padding: 20px 0;
+}
+
+.site-header{
+    padding: 20px;
     text-align: center;
 }
 
 .large-header-text, .small-header-text{
     display: block;
-    text-decoration: underline;
 }
 
 .large-header-text{
     font-size: 48px;
+    text-decoration: underline;
 }
 
 .small-header-text{
     font-size: 24px;
+    text-decoration: overline;
+}
+
+.side-bar{
+    font-size: 24px;
+    padding: 20px;
+    width: 240px;
+}
+
+.side-bar h2{
+    margin-top: 0;
+}
+
+side-bar nav a{
+    display: block;
+    margin-bottom: 20px;
+}
+
+side-bar nav a:hover{
+    text-decoration: underline;
 }
