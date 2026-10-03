@@ -24,19 +24,12 @@ p{
     text-align: justify;
 }
 
-ul{
-    padding: 0px;
-}
-
 li::marker{
     content: none;
 }
 
-header, nav, main, footer{
+header, main, footer{
     padding: 10px;
-}
-
-header, nav, main, footer{
     border-radius: 15px;
     border: magenta  2px solid;
     background-color: black;
@@ -59,8 +52,14 @@ header{
 nav{
     grid-row: 2 / 3;
     grid-column: 1 / 2;
+}
 
-    height: max-content;
+nav ul{
+    padding: 0px;
+}
+
+.navTriangles{
+    filter: drop-shadow(3px 3px 2px rgba(255, 0, 255, 0.856));
 }
 
 main{
